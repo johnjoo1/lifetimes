@@ -199,7 +199,7 @@ def plot_frequency_recency_matrix(
     if title is None:
         title = (
             "Expected Number of Future Purchases for {} Unit{} of Time,".format(T, "s"[T == 1 :])
-            + "\nby Frequency and Recency of my Lovely Customers"
+            + "\nby Frequency and Recency of a Customer"
         )
     plt.title(title)
 
